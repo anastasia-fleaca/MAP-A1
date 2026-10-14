@@ -1,5 +1,7 @@
 package exceptions;
 
-public class Exceptions {
-    
+public class RepositoryException extends Exception {
+    public RepositoryException(String message) {
+        super(message);
+    }
 }
